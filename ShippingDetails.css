@@ -1,0 +1,119 @@
+.shipping-page {
+  background: #f1f3f6;
+  min-height: 100vh;
+  padding: 30px 0;
+}
+
+.shipping-container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.shipping-title {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+/* Stepper Diagram */
+.stepper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.step {
+  text-align: center;
+}
+
+.step span {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #ccc;
+  color: #fff;
+  font-weight: bold;
+}
+
+.step p {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.step.active span {
+  background: #2874f0;
+}
+
+.line {
+  flex: 1;
+  height: 3px;
+  background: #ccc;
+  margin: 0 10px;
+}
+
+.line.active {
+  background: #2874f0;
+}
+
+/* Cards */
+.diagram-card {
+  border: 1px solid #e0e0e0;
+  padding: 18px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.diagram-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.free {
+  color: green;
+  font-weight: 600;
+}
+
+/* Top back button */
+.back-btn {
+  border: none;
+  background: transparent;
+  color: #2874f0;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+/* Continue button */
+.continue-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 4px;
+  border: none;
+  background-color: #2874f0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.continue-btn:hover {
+  background-color: #1565c0;
+}

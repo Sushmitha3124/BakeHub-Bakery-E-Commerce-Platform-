@@ -1,0 +1,296 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.login-form-section {
+  max-width: 400px;
+  margin: 0 auto 2rem;
+  width: 100%;
+}
+
+.login-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.error-message {
+  background-color: #fff5f5;
+  color: #c62828;
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  border: 1px solid #fecaca;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.login-btn {
+  background-color: #FF6F00;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.login-btn:hover:not(:disabled) {
+  background-color: #E65100;
+}
+
+.login-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.login-options {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.login-options a {
+  color: #FF6F00;
+  text-decoration: none;
+}
+
+.login-options a:hover {
+  text-decoration: underline;
+}
+
+.payment-clients-section {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.payment-clients-section h2 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.payment-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.payment-client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.payment-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #FF6F00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.payment-icon.phonepe {
+  background: linear-gradient(135deg, #614385, #516395);
+}
+
+.phonepe-symbol {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.payment-client span {
+  color: #333;
+  font-weight: 500;
+}
+
+.login-footer {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-top: 1px solid #ddd;
+  margin-top: auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: #FF6F00;
+  text-decoration: underline;
+}
+
+.footer-contact {
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-social {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Password visibility toggle styles */
+.password-group {
+  position: relative;
+}
+
+.password-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input-container input {
+  padding-right: 3rem;
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.password-toggle-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.password-toggle-btn:focus {
+  outline: 2px solid #FF6F00;
+  outline-offset: 2px;
+}
+
+.save-password-section {
+  margin: 1rem 0;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.checkbox-container input {
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.checkmark {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 8px;
+  transition: all 0.2s;
+}
+
+.checkbox-container:hover input ~ .checkmark {
+  background-color: #f5f5f5;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #FF6F00;
+  border-color: #FF6F00;
+}
+
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}

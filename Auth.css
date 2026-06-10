@@ -1,0 +1,59 @@
+.auth-container {
+  margin-top: 140px;
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+}
+
+.auth-container input,
+.auth-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid black;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  background: #ff5722;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.auth-link {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #444;
+  text-decoration: none;
+}
+
+.auth-link:hover {
+  color: orange;
+}
+
+.toggle {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.toggle button {
+  flex: 1;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.checkbox {
+  font-size: 14px;
+  margin: 10px 0;
+}
